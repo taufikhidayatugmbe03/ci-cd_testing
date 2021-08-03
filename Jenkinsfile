@@ -20,9 +20,4 @@ pipeline {
             }
         }
     }
-    post {
-        alsways {
-            sh 'docker logout'
-        }
-    }
 }
